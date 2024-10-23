@@ -95,8 +95,8 @@ table {
     margin-bottom: 30px;
 }
 
-table tr td {
-    padding: 0px 10px 0px 10px;
+table tr td img {
+    padding-right: 20px;
 }
 
 table tr td p {
@@ -118,6 +118,6 @@ table tr td p {
         height: 200px;
     }
     table tr td p {
-        font-size: 9pt;
+        font-size: 0.7em;
     }
 }

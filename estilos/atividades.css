@@ -52,7 +52,6 @@ main h2 {
 main p {
     margin: 20px 0px 20px 0px;
     text-align: justify;
-    text-indent: 25px;
     font-size: 1em;
     line-height: 1.5em;
 }
@@ -86,10 +85,11 @@ table {
 }
 
 table tr td {
+    
 }
 
 table tr td img {
-    
+    padding-right: 20px;
 }
 
 table tr td p {
