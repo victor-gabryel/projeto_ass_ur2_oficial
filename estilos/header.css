@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*fontes_externas======================================================================================*/
+@font-face {
+  font-family: 'Bebas';
+  src: url('../fontes/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tiny";
+  src: url('../fontes/Tiny5-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*raiz=================================================================================================*/
+:root{
+  --cor1:#DFF5EA;
+  --cor2:#7CFAE7;
+  --cor3:#7FE4FA;
+  --cor4:#19D2FA;
+  --cor5:#379AFA;
+  --cor6:#5F7DFA;
+
+  --fonte-padrao: Arial, Helvetica, sans-serif;
+  --fonte-bebas: 'Bebas';
+  --fonte-tiny: 'Tiny';
+}
+
+
+
+/*configuracoes_gerais=================================================================================*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--fonte-padrao);
+}
+
+
+
+/*header===============================================================================================*/
