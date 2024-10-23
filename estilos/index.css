@@ -66,8 +66,11 @@ main img {
 
 
 /*@media===============================================================================================*/
-@media (max-width: 520px) {
-    
+@media (max-width: 500px) {
+    main img {
+        width: 300px;
+        width: 100%;
+    }
     main p {
         font-size: 1.2em;
     }
