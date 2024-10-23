@@ -33,63 +33,10 @@
 
 
 
-/*configuracoes_gerais=================================================================================*/
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: var(--fonte-padrao);
+/*quebralinha==========================================================================================*/
+div#quebralinha {
+    min-height: 40px;
 }
-
-
-
-/*body=================================================================================================*/
-body {
-    background-color: rgba(165, 165, 165, 0.619);
-}
-
-
-
-/*header===============================================================================================*/
-header {
-    background-color: white;
-    min-height: 150px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-header h1 {
-    color: black;
-    font-family: var(--fonte-bebas);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    text-shadow: 0px -2px 5px #060606d3;
-}
-
-
-
-/*nav==================================================================================================*/
-nav {
-    background-color: white;
-    padding: 12px;
-    box-shadow: 0px 7px 9px black;
-}
-
-nav > a {
-    font-family: var(--fonte-bebas);
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: 0.5s;
-}
-
-nav > a:hover {
-    color: var(--cor5);
-}
-
 
 
 /*main=================================================================================================*/
@@ -101,13 +48,14 @@ main {
     padding: 20px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.775);
-    border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 main p {
+    font-family: var(--fonte-bebas);
     margin: 20px 0px 20px 0px;
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.7em;
     line-height: 1.5em;
 }
 
@@ -117,28 +65,16 @@ main img {
 
 
 
-
-/*footer===============================================================================================*/
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 8px;
-}
-
-footer > a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
-
 /*@media===============================================================================================*/
-@media (max-width: 500px) {
+@media (max-width: 520px) {
     main img {
-        width: 305px;
         height: 300px;
+        width: 470px;
+    }
+    main p {
+        font-size: 1.2em;
+    }
+    div#quebralinha {
+        min-height: 30px;
     }
 }
